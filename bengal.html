@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>BENGAL&nbsp;WARRIORS</title>
+	<link rel="icon" type="image/png" href="titlebengal.png"/>
+	<link rel="stylesheet" type="text/css" href="bengal.css"/>
+
+	<script>
+		function rounder()
+		{document.getElementById(8).src="bengalrounder.png";}
+		function defender()
+		{document.getElementById(8).src="bengaldefender.png";}
+		function all()
+		{document.getElementById(8).src="bengalall.png";}
+		function raider()
+		{document.getElementById(8).src="bengalraider.png";}
+	</script>
+
+
+
+</head>
+
+<body>
+<div class="bgimg">
+  <div class="topleft">
+
+  </div>
+  <div class="middle">
+    <h1>Next Panga <br>In</h1>
+    <hr><br><br>
+    <p id="demo" style="font-size:30px"></p>
+  </div>
+  <div class="bottomleft">
+    
+  </div>
+</div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+	<a href="www.bengalwarriors.com"><img src="bengallogo1.jpg" id="ab"></a>
+	<h1 id="abc">BENGAL&nbsp;WARRIORS</h1>
+
+	<blockquote><p><b>Bengal Warriors(BEN) </b>is a Kabbadi team based in Kolkata,WEST BENGAL that plays in the pro kabbadi league.The team is currently led by Surjeet Singh and coached by Jagdish Kumble. The team is owned by Akshay Kumar and play their home matches at the Netaji Indoor Stadium</p>
+	<p>The name of the captain of the team is Surjeet Singh. Jang Kung Lee, Maninder Singh and Deepak Narwal are the key raiders of the team.</p>
+	</blockquote>
+	<img src="bengalteam.jpg" id="abd">
+	<img src="bengaltable.png" id="bcd">
+	
+
+ 	<blockquote>Pro kabbaddi League (PKL) is a professional kabaddi league in India, based on the format of the Indian Premier League T20 cricket tournament. The first edition of the tournament was played in 2014 with eight franchises representing various cities in India. Bengal Warriors is a Kolkata based franchise owned by Future Group promoted by Kishore Biyani.</blockquote><hr>
+	<table id="demo" align="center">
+		<tr><td onClick="all()" ><button  class="button">All&nbsp;</button></td>
+			<td onClick="raider()"><button  class="button">Raiders&nbsp;</button></td>
+			<td onClick="defender()"><button  class="button">Defenders&nbsp;</button></td>
+			<td onClick="rounder()"><button  class="button">All Rounders&nbsp;</button></td>
+		</tr>
+	</table ><br>
+	<center><img src="bengalall.png" id="8"></center><hr>
+	<center><img src="bengalteam1.png"></center>
+	<div id="jk"><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	©Copy Right Pro Kabbadi 2018.All Rights Reserved.
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Social on
+	<a href="https://www.instagram.com/accounts/login/?hl=en"><img id="kk" src="instalogo.jpg"></a>
+	<a href="https://facebook.com/login?lang=en"><img id="ll" src="facebooklogo.jpg"></a>
+	<a href="https://twitter.com/login?lang=en"><img src="twitlogo.png" id="ll"></a>
+	</div>
+	
+
+</body>
+</html>

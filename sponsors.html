@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+</head>
+<body bgcolor="grey">
+<center><font face="AERIAL" color="silver" size="4"><h1 style="text-shadow: 3px 2px orange;">SPONSORS</h1></font><br><br>
+<div class="row">
+  <div class="column">
+    <img src="mi.png" alt="XIAOMI" style="width:100%" usemap="#1" >
+      <map name="1">
+	<area shape="rect" coords="0,0,1000,500" href="https://www.mi.com">
+	 </map>
+  </div>
+  <div class="column">
+    <img src="vivo.jpg" alt="VIVO" style="width:100%" usemap="#2">
+      <map name="2">
+	<area shape="rect" coords="0,0,400,400" href="https://www.vivo.com">
+	 </map>
+  </div>
+  <div class="column">
+    <img src="apple.png" alt="Apple" style="width:100%" usemap="#3">
+      <map name="3">
+	<area shape="rect" coords="0,0,310,163" href="https://www.apple.com">
+	  </map>
+  </div>
+</div>
+
+</body>
+</html>
