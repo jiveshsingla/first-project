@@ -1,0 +1,72 @@
+#abc{text-align: center;}
+#ab{float:left;width:13%; }
+.ss{height:65px;}
+#abd{float:center;width:70%;margin-left: 25 }
+#abe{width:30%; }
+#bcd{float:right;width:27%;height:500px;background-color:powderblue;margin-right: 30px;}
+body{background-color: #f4ffff;font-size:20px;}
+#sa{float:right;}
+#demo{float:center;}
+#jk{background-color:black;color: white;height:80px;}
+#ll{float:right;height:40px;width:40px;margin-right: 20px;margin-bottom:5px;}
+#kk{float:right;height:40px;width:40px;margin-right:20px;margin-bottom:5px; }
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: arrow;
+  outline: none;
+  color: black;
+  background-color: orange;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: red}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('count1.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: brown;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 35px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}

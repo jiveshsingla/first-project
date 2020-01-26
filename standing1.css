@@ -1,0 +1,74 @@
+
+<html>
+<head>
+<style>
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<table id="customers">
+  <tr>
+    <th>Season</th>
+    <th >Total Teams</th>
+    <th colspan="2">Winner</th>
+<th colspan="2">Most Sucessfull Raider</th>
+<th>Most Sucessfull Defender</th>
+
+  </tr>
+  <tr>
+    <td>First</td>
+    <td>Eight</td>
+<td colspan="2">Mumbai Indians</td>
+<td colspan="2"><a href="https://www.facebook.com/Rahulchaudhary.kabaddi/">Rahul Chaudhary</a></td>
+<td>Manjeet Chillar</td>
+
+  </tr>
+  <tr>
+    <td>Second</td>
+    <td>Eight</td>
+    <td colspan="2">Mumbai Indians</td>
+<td colspan="2"><a href="https://www.facebook.com/Kashiling Adake.kabaddi/">Kashiling Adake</a></td>
+<td>Ravinder Pahal</td>
+  </tr>
+  <tr>
+<td>Third</td>
+    <td>Twelve</td>
+    <td colspan="2">Patna Pirates</td>
+    <td colspan="2"><a href="https://www.facebook.com/Rishank Devadiga.kabaddi/">Rishank Devadiga</a></td>
+<td>Sandeep Narwal</td>
+  </tr>
+  <tr>
+    <td>Fourth</td>
+    <td>Twelve</td>
+    <td colspan="2">Patna Pirates</td>
+<td colspan="2"><a href="https://www.facebook.com/Rahul chaudhary.kabaddi/">Rahul Chaudhary</a></td>
+<td>Fazel Atranchali</td>
+
+  </tr>
+  
+</table>
+
+</body>
+</html>
